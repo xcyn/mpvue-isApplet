@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "查看详情",
+  "usingComponents":{
+    "van-tabbar": "/static/vant/tabbar/index",
+    "van-tabbar-item": "/static/vant/tabbar-item/index",
+    "van-search": "/static/vant/search/index",
+    "van-submit-bar": "/static/vant/submit-bar/index",
+    "van-tag": "/static/vant/tag/index",
+    "van-goods-action": "/static/vant/goods-action/index",
+    "van-goods-action-icon": "/static/vant/goods-action-icon/index",
+    "van-goods-action-button": "/static/vant/goods-action-button/index"
+  }
+}

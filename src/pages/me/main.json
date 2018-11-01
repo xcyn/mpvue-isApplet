@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents":{
+    "van-tabbar": "/static/vant/tabbar/index",
+    "van-tabbar-item": "/static/vant/tabbar-item/index",
+    "van-search": "/static/vant/search/index",
+    "van-cell": "/static/vant/cell/index",
+    "van-cell-group": "/static/vant/cell-group/index",
+    "van-button": "/static/vant/button/index"
+  }
+}
