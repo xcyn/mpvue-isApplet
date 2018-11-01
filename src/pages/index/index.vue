@@ -89,19 +89,7 @@ export default {
     return {
       motto: 'Hello World',
       serValue: '',
-      items: [{
-        text: 'item1',
-        des: '我的item1'
-      }, {
-        text: 'item2',
-        des: '我的item2'
-      }, {
-        text: 'item3',
-        des: '我的item3'
-      }, {
-        text: 'item4',
-        des: '我的item4'
-      }],
+      items: null,
       discounts: [{}, {}, {}, {}],
       cards: [{}, {}, {}, {}, {}, {}],
       images: [
@@ -130,9 +118,13 @@ export default {
     }
   },
 
-  created () {
+  async created () {
+    this.items = (await this.db.collection('items').get()).data
     this.showShareMenu()
     // 调用应用实例的方法获取全局数据
+  },
+  async mounted () {
+    console.log('itemsitemsitems', this.items)
   }
 }
 </script>
