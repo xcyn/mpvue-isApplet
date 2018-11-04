@@ -21,6 +21,8 @@ npm run all
 npm run build --report
 # 打包H5
 npm run buildH5
+# 参考github
+https://github.com/tencentyun/wafer2-quickstart-nodejs
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

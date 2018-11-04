@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "地址",
-  "usingComponents":{
-    "van-button": "/static/vant/button/index"
-  }
-}

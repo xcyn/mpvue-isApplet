@@ -11,7 +11,7 @@
 	"miniprogramRoot": "dist/",
 	"compileType": "miniprogram",
 	"appid": "wxa7a6a21e08ef1692",
-	"projectname": "mp-oasis",
+	"projectname": "mp-isApplet",
 	"condition": {
 		"search": {
 			"current": -1,
